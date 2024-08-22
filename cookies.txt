@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+yoajung.co.kr	TRUE	/	FALSE	1999999999	PHPSESSID	4c7pr48i6m0vnjujc3t41p66fl
+yoajung.co.kr	TRUE	/	FALSE	1999999999	SameSite	None
+yoajung.co.kr	TRUE	/	FALSE	1999999999	2a0d2363701f23f8a75028924a3af643	MTE1LjIzLjIxNC4xNzE%3D
+yoajung.co.kr	TRUE	/	FALSE	1999999999	e1192aefb64683cc97abb83c71057733	bWFpbl9wb3J0
+

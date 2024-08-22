@@ -1,0 +1,533 @@
+@keyframes ddm_m {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: matrix(1.05, 0.01, 0.01, 1.05, 0, -15);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes ddm_m_reverse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: matrix(0.8, 0.01, 0.01, 0.8, 0, -5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes blk2 {
+    0% {
+        opacity: 0;
+    }
+    49%{
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.pc-inline{
+    display: inline;
+}
+.tablet{
+    display:none;
+}
+.mobile{
+    display:none;
+}
+.pc{
+    display: flex;
+}
+.pc-mobile{
+    display: flex;
+}
+.mobile-pc{
+    display: none;
+}
+.footer{
+    display: flex;
+    background: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 2% 5%;
+    padding-bottom: 11%;
+    font-size: calc(1rem + ((1vw - 0.48rem) * 1.3889));
+}
+.footer_title{
+    font-weight: 700;
+    font-family: 'Pretendard-bold' !important;
+}
+.footer_bottom{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Pretendard-Regular';
+}
+.footer_bottom p{
+    color: #ffffff73;
+    font-size: 0.5em;
+
+}
+.footer_bottom p:nth-child(1){
+}
+.footer_bottom p:nth-child(2){
+    padding-bottom: 2%;
+}
+.footer_bottom p:nth-of-type(3){
+    color: white;
+    font-weight: 600;
+    font-size: 0.5em;
+    margin-top: 1%;
+    font-family: 'Pretendard-bold';
+}
+.quickAgree{
+    white-space: nowrap;
+}
+.quick_agree {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -2%;
+    margin-top: -4%;
+}
+.quick_checkbox{
+    accent-color: #f4a81c;
+    margin: 0 0.5% 0 3%;
+}
+.quickAgree a {
+    font-family: "Pretendard-regular";
+    font-size: 0.6em;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.ddm_logo{
+    left: 0;
+    max-width: 100%;
+    width: 100% !important;
+    margin-bottom: -24%;
+}
+.tel_logo2{
+    margin-bottom: -7%;
+}
+.quick_m1{
+    display: none;
+}
+.mobile_background{
+    padding-bottom: 1.5%;
+    padding-top: 0.7%;
+    background: #911d1e;
+}
+.quick_3{
+    margin-bottom: -9%;
+}
+/*개인정보 처리 방침*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 10000;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 56%;
+    border-radius: 30px;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 33px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: -2%;
+    margin-right: -1%;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#policyWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    z-index: 2000;
+    height: 50px;
+    margin-left: -50px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px
+}
+#policy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    height: 530px;
+    margin: 0 auto;
+    padding: 1px;
+    text-align: left
+}
+#policy div.policy_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    height: 75px;
+    background-color: #b1b1b1;
+    border-radius: 10px;
+}
+#policy div.policy_title h2 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff
+}
+#policy div.policy_con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px 0px 20px 0px;
+    background: #9b9b9b;
+    border-radius: 10px;
+}
+#policy p.policy_text {
+    overflow-y: scroll;
+    height: 400px;
+    padding-right: 20px;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 18px
+}
+#policyLoader {
+    padding-top: 10px
+}
+.footer {
+    display: flex;
+    background: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 12% 5%;
+    padding-bottom: 6%;
+    font-size: calc(1rem + ((1vw - 0.48rem) * 1.3889));
+}
+
+.footer_bottom {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Pretendard-Regular';
+    border-top: 1px solid #80808075;
+    padding-top: 3%;
+}
+.footer{
+    background: #f63f5d;
+}
+.footer_bottom p{
+    color: #ffffff;
+}
+
+.footer_bottom {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Pretendard-Regular';
+    border-top: 1px solid #ffffffa1;
+    padding-top: 3%;
+}/*개인정보 처리 방침*/
+.footer_01{
+    left: 9.5%;
+    top: 14%;
+    width: 6.2%;
+}
+.footer_02{
+    right: 9.5%;
+    top: 14%;
+    width: 16.9%;
+}
+.footer_04{
+    top: 0;
+    width: 100% !important;
+}
+@media screen and (max-width:1023px) {
+    .pc{
+        display: none;
+    }
+    .pc-inline{
+        display: none !important;
+    }
+    .tablet{
+        display:flex;
+    }
+    .mobile{
+        display:none;
+    }
+    .footer {
+        padding-bottom: 16%;
+        padding-top: 5%;
+    }
+    .footer_bottom p:nth-of-type(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer_bottom p:nth-of-type(2) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer_bottom p:nth-of-type(3) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer_bottom div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        color: #ffffff73;
+        font-size: 0.5em;
+    }
+    .ddm_logo {
+        left: 0;
+        max-width: 100%;
+        width: 100% !important;
+        margin-bottom: -16%;
+        margin-right: -63%;
+    }
+    .tel_logo{
+        display: none;
+    }
+    .mobile_inputs {
+    }
+    .mobile_background {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
+    .form-button2{
+    }
+    #contact-form{
+        background: transparent !important;
+    }
+    #contact-form{
+        width: 62% !important;
+        margin-left: 9% !important;
+    }
+    .footer{
+        font-size: 3vw;
+    }
+
+}
+@media screen and (max-width: 599px) {
+    .pc-mobile {
+        display: none;
+    }
+
+    .mobile-pc {
+        display: flex;
+    }
+    .footer {
+        padding-bottom: 22%;
+        padding-top: 5%;
+    }
+    .footer_bottom p:nth-of-type(3) {
+        padding-top: 3%;
+    }
+    .ddm_logo{
+        display: none;
+
+    }
+    .contact-form-top{
+        width: 123% !important;
+    }
+    .mobile_inputs {
+    }
+    .mobile_inputs input{
+        height: 30px !important;
+    }
+    .form-button2{
+        margin-top: 0%;
+        width: 41%;
+
+    }
+    .form-button2 img{
+        width: 66% !important;
+    }#contact-form {
+         width: 95% !important;
+         margin-left: 3% !important;
+         margin-bottom: -1% !important;
+     }
+    .quick_agree {
+        margin-left: 6% !important;
+        margin-top: -1% !important;
+    }
+    .form-button2 img {
+        width: 96% !important;
+        padding-left: 0 !important;
+    }
+    .modal-content {
+        background-color: #fefefe;
+        margin: 7% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 86%;
+        border-radius: 30px;
+    }
+    .footer{
+        font-size: 3.5vw;
+    }
+    .contact_fixed_left {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 4.5%;
+        margin-left: -2%;
+        padding-bottom: 0.8%;
+    }
+    .quick_agree {
+        width: 42%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        left: 8.8%;
+        top: 12%;
+    }
+    .quickAgree a {
+        font-family: "Pretendard-regular";
+        font-size: 2.8vw;
+        color: black;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-left: 3%;
+    }
+    .footer_bottom p {
+        font-size: 0.9em;
+    }
+    .footer_bottom div {
+        font-size: 0.9em;
+    }
+    .footer_bottom p:nth-of-type(3) {
+        font-size: 0.9em;
+    }
+    .footer_bottom {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-start;
+        font-family: 'Pretendard-Regular';
+        border-top: 1px solid #ffffffa1;
+        padding-top: 3%;
+    }
+    .footer_bottom div {
+        color: #ffffff;
+    }
+    .footer_01{
+        left: unset;
+        top: 14%;
+        width: 22.2%;
+    }
+    .footer {
+        padding-bottom: 22%;
+        padding-top: 80%;
+    }
+    .footer_01 {
+        left: unset;
+        top: 10%;
+        width: 26.2%;
+    }
+    .footer_02 {
+        right: unset;
+        top: 42%;
+        width: 52.9%;
+    }
+    .footer_bottom {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-start;
+        font-family: 'Pretendard-Regular';
+        border-top: 1px solid #ffffffa1;
+        padding-top: 7%;
+    }
+    .footer_01 {
+        left: unset;
+        top: 12%;
+        width: 20.2%;
+    }
+    .footer_02 {
+        right: unset;
+        top: 37%;
+        width: 52.9%;
+    }
+    .footer {
+        padding-bottom: 22%;
+        padding-top: 72%;
+    }
+    .footer_bottom {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-start;
+        font-family: 'Pretendard-Regular';
+        border-top: 1px solid #ffffffa1;
+        padding-top: 9%;
+    }
+}

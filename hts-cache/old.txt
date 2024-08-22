@@ -1,0 +1,8 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+16:57:36	27478/27478	---MCZ	200	added ('OK')	text/html	date:Mon,%2019%20Aug%202024%2007:57:36%20GMT	https://yoajung.co.kr/	C:/My%20Web%20Sites/yaj/yoajung.co.kr/index.html	(from )
+16:57:37	22/22	---M--	200	added ('OK')	text/plain	etag:%2216-61a97eb4f1634%22	https://yoajung.co.kr/robots.txt		(from )
+16:57:37	27912/27912	---M--	200	added ('OK')	image/png	etag:%226d08-61a97eb992727%22	https://yoajung.co.kr/images/yoajungthumb.png	C:/My%20Web%20Sites/yaj/yoajung.co.kr/images/yoajungthumb.png	(from https://yoajung.co.kr/)
+16:57:37	101258/101258	---M--	200	added ('OK')	image/x-icon	etag:%2218b8a-61a97eb6541fd%22	https://yoajung.co.kr/images/yoajungfavi.ico	C:/My%20Web%20Sites/yaj/yoajung.co.kr/images/yoajungfavi.ico	(from https://yoajung.co.kr/)
+16:57:38	25599/25599	---MCZ	200	added ('OK')	text/css	etag:W/%2263ff-61a97efba678e%22	https://yoajung.co.kr/theme/design/css/default.css?ver=2303229	C:/My%20Web%20Sites/yaj/yoajung.co.kr/theme/design/css/defaultaa39.css	(from https://yoajung.co.kr/)
+16:57:38	23450/23450	---MCZ	200	added ('OK')	text/css	etag:W/%225b9a-61a97f1d23f69%22	https://yoajung.co.kr/theme/design/template/header/style.css?ver=2303229	C:/My%20Web%20Sites/yaj/yoajung.co.kr/theme/design/template/header/styleaa39.css	(from https://yoajung.co.kr/)
+16:57:38	17128/17128	---MCZ	200	added ('OK')	text/css	etag:W/%2242e8-61d098395acca%22	https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229	C:/My%20Web%20Sites/yaj/yoajung.co.kr/theme/design/template/main/styleaa39.css	(from https://yoajung.co.kr/)

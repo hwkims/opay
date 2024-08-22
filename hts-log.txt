@@ -1,0 +1,55 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 19 Aug 2024 16:58:08 at https://yoajung.co.kr/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC1%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F  -%l "en, *" https://yoajung.co.kr/ -O1 "C:\My Web Sites\yaj" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:58:34	Error: 	"Forbidden" (403) at link https://yoajung.co.kr/bbs/ (from https://yoajung.co.kr/)
+16:58:36	Error: 	"Not Found" (404) at link https://yoajung.co.kr/css/header.css (from https://yoajung.co.kr/)
+16:59:28	Error: 	"Not Found" (404) at link https://yoajung.co.kr/js/header.js (from https://yoajung.co.kr/)
+16:59:28	Error: 	"Not Found" (404) at link https://yoajung.co.kr/css/style.css (from https://yoajung.co.kr/)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/js/script.js (from https://yoajung.co.kr/)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/css/footer.css (from https://yoajung.co.kr/)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con1_10.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con1_11.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con1_12.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con6_08.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con6_09.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con6_10.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con6_11.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con6_12.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con7_02.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con7_03.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con7_04.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con7_05.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con11_07.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con11_08.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con11_09.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con11_10.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con08_07.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con08_08.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con08_09.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con08_10.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con08_11.png (from https://yoajung.co.kr/theme/design/template/main/style.css?ver=2303229)
+16:59:33	Warning: 	File not parsed, looks like binary: https://yoajung.co.kr/js/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0
+16:59:35	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/css/header.css (from https://yoajung.co.kr/bbs/content.php?co_id=brand)
+16:59:35	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/js/header.js (from https://yoajung.co.kr/bbs/content.php?co_id=brand)
+16:59:35	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/css/brand.css (from https://yoajung.co.kr/bbs/content.php?co_id=brand)
+16:59:35	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/js/brand.js (from https://yoajung.co.kr/bbs/content.php?co_id=brand)
+16:59:35	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/css/footer.css (from https://yoajung.co.kr/bbs/content.php?co_id=brand)
+16:59:35	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/css/menustore.css (from https://yoajung.co.kr/bbs/content.php?co_id=menustore)
+16:59:35	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/js/menustore.js (from https://yoajung.co.kr/bbs/content.php?co_id=menustore)
+16:59:36	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/css/franchise.css (from https://yoajung.co.kr/bbs/content.php?co_id=franchise)
+16:59:36	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/js/franchise.js (from https://yoajung.co.kr/bbs/content.php?co_id=franchise)
+16:59:37	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/css/membership.css (from https://yoajung.co.kr/bbs/content.php?co_id=membership)
+16:59:37	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/js/membership.js (from https://yoajung.co.kr/bbs/content.php?co_id=membership)
+16:59:37	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/css/community.css (from https://yoajung.co.kr/bbs/content.php?co_id=community)
+16:59:38	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/js/community.js (from https://yoajung.co.kr/bbs/content.php?co_id=community)
+16:59:39	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/css/main.css (from https://yoajung.co.kr/bbs/content.php?co_id=main2)
+16:59:39	Error: 	"Not Found" (404) at link https://yoajung.co.kr/bbs/js/main.js (from https://yoajung.co.kr/bbs/content.php?co_id=main2)
+16:59:39	Error: 	"Not Found" (404) at link https://yoajung.co.kr/images/con7_bg.jpg (from https://yoajung.co.kr/theme/design/template/franchise/style.css?ver=2303229)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 32 seconds : 331 links scanned, 287 files written (18290339 bytes overall), 281 files updated [16009942 bytes received at 174021 bytes/sec], 2685416 bytes transferred using HTTP compression in 47 files, ratio 19%, 18.0 requests per connection
+(43 errors, 1 warnings, 0 messages)
